@@ -1,0 +1,376 @@
+<resources>
+
+    <!-- Place API key-->
+   <!-- <string name="map_api_key">AIzaSyAWcqR_P9DXtv8_eD3Itki1e_PoGrp1fYs</string>-->
+
+
+    <!-- AuthFlow-->
+
+    <string name="app_name">Kinship</string>
+    <string name="kinship">Kinship</string>
+    <string name="life_together">Life. Together.</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="send_verification_link">Send Verification Link</string>
+    <string name="enter_your_registered_email_to_reset_your_password">Enter your registered email to reset your password</string>
+    <string name="otp_verification">One time password Verification</string>
+    <string name="verify">Verify</string>
+    <string name="please_enter_the_code_that_send_to_your_email_address">Please enter the code we emailed to you</string>
+    <string name="update_contact_details_otp_description">We will send you an one time password via this mail@gmail.com email address</string>
+    <string name="resend_otp">Resend One time password</string>
+    <string name="Continue">Continue</string>
+    <string name="what_brings_you_to_kinship">What brings you to Kinship?</string>
+    <string name="select_one">Select one</string>
+    <string name="i_m_trying_to_conceive">I’m trying to conceive</string>
+    <string name="enter_otp">Enter One time password</string>
+    <string name="_42sec">42sec</string>
+    <string name="tell_us_about_your_fertility_journey">Tell us about your fertility journey</string>
+    <string name="how_long_have_you_been_trying_to_conceive">How long have you been trying to conceive?</string>
+    <string name="how_are_you_trying">How are you trying?</string>
+    <string name="let_s_get_to_know_each_other">Let’s get to know each other</string>
+    <string name="dob">DOB</string>
+    <string name="what_is_your_zip_code">What is your zip code?</string>
+    <string name="what_are_you_obsessed_with_select_3_5">What are you obsessed with? (Select 3-5)</string>
+    <string name="moms_to_be">We\'re working to connect you with other moms-to-be. This can take up to 24 hours. Be sure to enable push notifications so we can tell you when your kinship is ready!</string>
+    <string name="moms">We\'re working to connect you with other moms. This can take up to 24 hours. Be sure to enable push notifications so we can tell you when your kinship is ready!</string>
+    <string name="finding_your_kinship">Finding your Kinship....</string>
+    <string name="did_you_adopt_a_boy_or_girl">Did you adopt a boy or girl?</string>
+    <string name="what_is_your_baby_s_sex">What is your baby’s sex?</string>
+    <string name="did_you_have_boys_or_girls_or_both">Did you have boys or girls (or both)?</string>
+    <string name="when_were_your_babies_born">When were your babies born?</string>
+    <string name="enter_email">Enter Email</string>
+
+
+    <!--ContentDescription String-->
+    <string name="navigate_back">Navigate Back</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="don_t_have_an_account">Don’t have an account? </string>
+    <string name="tell_us_about_your_pregnancy">Tell us about your pregnancy</string>
+    <string name="did_you_have_a_single_or_multiple_pregnancy">Did you have a single or multiple pregnancy?</string>
+    <string name="are_you_having_a_boy_or_girl">Are you having a boy or girl?</string>
+    <string name="are_you_a_first_time_mom">Are you a first-time mom?</string>
+    <string name="are_you_having_boys_or_girls_or_both">Are you having boys or girls (or both)?</string>
+    <string name="select_your_date">Select your date</string>
+    <string name="when_is_your_due_date">When is your due date?</string>
+    <string name="what_is_your_child_s_date_of_birth">What is your child’s date of birth?</string>
+    <string name="does_your_child_have_special_needs">Does your child have special needs?</string>
+    <string name="searchmessage">SearchMessage</string>
+    <string name="profile">Profile</string>
+    <string name="image">Image</string>
+    <string name="remove_image">Remove Image</string>
+    <string name="add_event">Add Event</string>
+    <string name="send_message_content_description">Send Message</string>
+    <string name="user">User</string>
+    <string name="eventedit">eventEdit</string>
+
+
+    <!-- HomeFlow-->
+    <string name="home">Home</string>
+    <string name="events">Events</string>
+    <string name="messages">Messages</string>
+    <string name="settings">Settings</string>
+    <string name="what_should_we_call_you">What should we call you?</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="did_you_have_a_single_or_multiple_birth">Did you have a single or multiple birth?</string>
+    <string name="do_any_of_your_children_have_special_needs">Do any of your children have special needs?</string>
+    <string name="when_was_your_baby_born">When was your baby born?</string>
+    <string name="single">Single</string>
+    <string name="multiple">Multiple</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="connected_you_with_other_moms_moms_to_be">Connected you with other moms-to-be.</string>
+    <string name="mom">Connected you with other moms</string>
+    <string name="members">15Members</string>
+    <string name="gallery">Gallery</string>
+    <string name="links">Links</string>
+    <string name="search_messages">Search Messages</string>
+    <string name="liked_messages">Liked Messages</string>
+
+
+    <!--Setting section-->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="notification_setting">Notification Setting</string>
+    <string name="change_password">Change Password</string>
+    <string name="update_contact_details">Update Contact Details</string>
+    <string name="events_details">Events Details</string>
+    <string name="help">Help</string>
+    <string name="leave_your_kinship">Leave Your Kinship</string>
+    <string name="leave_your_kinship1">Leave your Kinship</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="logout">Log Out</string>
+    <string name="developed_by">Developed by</string>
+    <string name="iroid_solutions">iRoid Solutions</string>
+    <string name="children_detail">Children’s Details</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="bio">Bio :</string>
+    <string name="type_here">Type here..</string>
+    <string name="notifications">Notifications</string>
+    <string name="update">Update</string>
+    <string name="change_password_text">Your password must be at least 8 characters and should contain a combination of letters, numbers and special characters {!@#$%} </string>
+    <string name="leave">Leave [Kinship Name]</string>
+    <string name="are_you_sure_you_want_to_leave">Are you sure you want to leave your Kinship?</string>
+    <string name="leaving_kinship_1">Leaving your Kinship is permanent</string>
+    <string name="leaving_kinship_2">If you leave your Kinship, you will not be able to rejoin. You will have to join a new Kinship with new people and your connections in your current Kinship will be lost.</string>
+    <string name="leaving_kinship_3">You can only join a new Kinship once every 30 days</string>
+    <string name="leaving_kinship_4">To protect our community from abuse, users can be members of only one Kinship at a time and can only join a new Kinship once every 30 days.</string>
+    <string name="delete_your_account">Delete Your Account</string>
+    <string name="are_you_sure_delete">Are you sure you want to delete your account?</string>
+    <string name="delete_account_1">Deleting your account is permanent</string>
+    <string name="delete_account_2">Your profile, photos, messages and events will be permanently deleted. You will not be able to rejoin your current Kinship.</string>
+    <string name="delete_account_3">You will have to wait 30 days to join a new Kinship</string>
+    <string name="delete_account_4">To protect our community from abuse, if you create a new account, you will not be able to join a new Kinship for 30 days.</string>
+    <string name="confirm">Confirm</string>
+    <string name="reason_leave_kinship">Please tell us why you’re leaving your kinship.</string>
+    <string name="reason_delete_account">Please tell us why you’re deleting your account.</string>
+    <string name="cancel">Cancel</string>
+    <string name="please_enter_valid_reason">Please enter a valid reason</string>
+    <string name="please_enter_Kinship_name">Group name is not allow to be empty</string>
+    <string name="update_success">Updated Successfully</string>
+    <string name="click_here">Click Here</string>
+    <string name="bio_title">Bio:</string>
+    <string name="tell_us_about_your_baby">Tell us about your baby</string>
+    <string name="tell_us_about_your_baby_s">Tell us about your baby(s)</string>
+    <string name="newProfile">new</string>
+    <string name="enter_first_name">Please enter first name</string>
+    <string name="enter_last_name">Please enter last name</string>
+    <string name="bio_profile">Bio -</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="enter_the_phone_number">Please enter Phone number</string>
+    <string name="phone_number_must_be_between_7_to_15_digits">Phone number must be between 7 to 15 digits</string>
+    <string name="zip_code_must_be_between_4_to_6_digits">Zip code is must 4 to 6 character</string>
+    <string name="enter_the_date_of_birth">Please enter Date of birth</string>
+
+    <string name="please_select_babies_born_date">Please select babies born date</string>
+    <string name="please_select_baby_born_date">Please select baby born date</string>
+
+    <string name="enter_the_zip_code">Please enter zipcode</string>
+    <string name="please_select_the_hobbies">please select the hobbies</string>
+    <string name="please_select_between_3_5_hobbies">You must select hobbies between 3 to 5</string>
+    <string name="otp_sent_your_mail">OTP sent your mail.</string>
+    <string name="enter_valid_email">Please enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_confirm_password">Please enter confirm password</string>
+
+    <string name="login_successfully">Login Successfully.</string>
+    <string name="add_new">+Add New</string>
+    <string name="third_children_birthdate">3nd Child’s Birthdate</string>
+    <string name="camera">Camera</string>
+    <string name="my_events">My Events</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="may_be">Maybe</string>
+    <string name="rsvp">RSVP</string>
+    <string name="location_colon">Location :</string>
+    <string name="description">Description :</string>
+    <string name="created_by">Created by :</string>
+    <string name="created_on">Created on :</string>
+    <string name="zoom">Zoom -</string>
+    <string name="click_to_join"><u>Click to join</u></string>
+    <string name="no_data_found">No data found</string>
+    <string name="no_event_found">No events created yet.</string>
+    <string name="no_notification_found">No notification found</string>
+    <string name="no_message_found">No messages found</string>
+    <string name="push_notification">Push Notifications</string>
+    <string name="all_new_post">All New Posts</string>
+    <string name="_1st_child_s_birthdate">1st Child’s Birthdate</string>
+    <string name="_2st_child_s_birthdate">2nd Child’s Birthdate</string>
+    <string name="_3st_child_s_birthdate">3nd Child’s Birthdate</string>
+
+    <!--validation Text-->
+    <string name="enter_email_validation">Please enter email</string>
+    <string name="enter_valid_email_validation">Please enter valid email</string>
+    <string name="enter_password_validation">Please enter password</string>
+    <string name="password_type_validation1">Password must contain at least one capital letter, one number and one special character</string>
+    <string name="password_type_validation">Password must contain at least one capital letter, one number and one special character</string>
+    <string name="enter_confirm_password_validation">Please enter confirm password</string>
+    <string name="password_and_confirm_password_not_matched_validation">Password and confirm password should be same</string>
+    <string name="otp_sent_your_mail_validation">One time password sent your mail.</string>
+    <string name="please_provide_otp_validation">Enter One Time Password</string>
+    <string name="requires_4_digits_validation">Requires 4 digits</string>
+    <string name="city">City</string>
+    <string name="kinship_app">Kinship App</string>
+    <string name="allow_kinship_app_to_access_your_storage_and_camera_while_you_are_using_the_app">Allow “Kinship App” to access your storage and camera while you are using the app.</string>
+    <string name="open_setting">Open Setting</string>
+    <string name="name">Name:</string>
+    <string name="new_event">New Event</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_date">Event Date</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="all_day">All day</string>
+    <string name="location">Location</string>
+    <string name="link">Link</string>
+    <string name="event_description">Event Description</string>
+    <string name="submit">Submit</string>
+    <string name="enter_the_city">Enter the city</string>
+    <string name="enter_the_bio">Enter the bio</string>
+    <string name="member_birthday">Birthdate :</string>
+    <string name="enter_the_reason">Please enter contact support reason</string>
+    <string name="enter_the_comment">Please enter contact support Description</string>
+    <string name="enter_current_password">Please enter current password</string>
+    <string name="enter_new_password">Please enter new password</string>
+    <string name="password_and_confirm_password_not_matched">Password and confirm password not matched</string>
+
+    <!-- Chat section-->
+    <!--<string name="send_message">Send message…</string>-->
+    <string name="send_message">Send message...</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="direct_message">Direct Message</string>
+    <string name="direct_messages">Direct Messages</string>
+    <string name="please_check_terms_conditions"><![CDATA[Please check terms & conditions]]></string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="you_cannot_leave_the_kinship_as_you_do_not_belong_to_any_kinship_group">You cannot leave the kinship as you do not belong to any kinship group.</string>
+    <string name="you_cannot_add_event_as_you_do_not_belong_to_any_kinship_group">You cannot add event as you do not belong to any kinship group.</string>
+    <string name="okay">Okay</string>
+    <string name="please_select_at_least_two_birthdate">Please select at least two birthdate</string>
+    <string name="search_message">Search Message</string>
+    <string name="you_must_have_select_any_one_option">You must have select any of one option</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="tap_here_to_refresh_it">Tap here to refresh it.</string>
+    <string name="you">You</string>
+    <string name="new_message">New Message</string>
+    <string name="no_messages_in_this_group_yet">No messages in this group yet.</string>
+    <string name="no_images_found">No images found</string>
+    <string name="no_links_found">No links found</string>
+    <string name="there_are_no_liked_messages_yet">There are no liked messages yet</string>
+    <string name="please_search_messages">Please search messages</string>
+    <string name="no_search_results_found">No search results found</string>
+    <string name="network_error">Network error</string>
+    <string name="welcome_mom"> mom ] who we think you\'ll relate to.</string>
+    <string name="welcome_mom_to_be"> mom - to - be ] who we think you\'ll relate to.</string>
+    <string name="we_ve_matched_you_with_other_moms">We’ve matched you with  %1$s  other [  </string>
+    <string name="member_added_successfully">Member added successfully!</string>
+    <string name="group_created_successfully">Group Created successfully!</string>
+    <string name="ok">Ok</string>
+    <string name="view_details">View Details</string>
+    <string name="maybe">Maybe</string>
+    <string name="no_declines_received">No declines received.</string>
+    <string name="no_responses_yet">No responses yet.</string>
+    <string name="no_attendees_confirmed">No attendees confirmed.</string>
+    <string name="no_chats_available">No chats available</string>
+    <string name="no_messages_available">No messages available</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_id">123</string>
+    <string name="rsvp_my_event">RSVP :</string>
+    <string name="save">Save</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="send">Send</string>
+    <string name="reason_for_support">Reason For Support</string>
+    <string name="the_contact_support_request_has_been_send_to_the_support">The contact Support request has been send to the support</string>
+    <string name="all_events">All Events</string>
+    <string name="not_a_valid_link">Not a valid link</string>
+    <string name="end_time_cannot_be_before_start_time">End time cannot be before start time</string>
+    <string name="event_must_be_at_least_60_minutes_long">Event must be at least 60 minutes long</string>
+    <string name="end_time_cannot_be_before_the_start_time">End time cannot be before the start time</string>
+    <string name="start_time_cannot_be_before_the_current_time">Start time cannot be before the current time</string>
+    <string name="please_select_the_first_start_time">Please select the first start time</string>
+    <string name="you_can_create_an_event_after_the_current_time">You can create an event after the current time</string>
+    <string name="optional">(Optional)</string>
+    <string name="today">Today</string>
+    <string name="checked">Checked</string>
+    <string name="unchecked">Unchecked</string>
+
+    <string name="edit_event">Edit Event</string>
+    <string name="delete_event">Delete Event</string>
+    <string name="delete">Delete</string>
+    <string name="are_you_sure_you_want_to_delete_the_event">Are you sure you want to delete the event?</string>
+    <string name="hello">Hello!</string>
+    <string name="you_have_signed_up_successfully">You have signed up successfully!</string>
+    <string name="invalid_date_format">Invalid date format</string>
+
+    <string name="please_select_the_gender">Select are you having a boy or girl</string>
+
+    <string name="please_select_babies_sex">Select are you having a boy or girl</string>
+
+
+    <string name="please_select_baby_born">Please select baby born date</string>
+
+    <string name="select_due_date">Please select due date</string>
+    <string name="please_enter_valid_zipcode">Please enter valid zipcode</string>
+    <string name="birthdate_">Birthdate :</string>
+    <string name="selected_time_cannot_be_before_the_current_time">Selected time cannot be before the current time</string>
+    <string name="please_enter_event_name">Please enter event name</string>
+    <string name="please_enter_event_date">Please enter event date</string>
+    <string name="please_enter_event_start_time">Please enter event start time</string>
+    <string name="please_enter_event_end_time">Please enter event end time</string>
+    <string name="please_enter_event_description">Please enter event description</string>
+    <string name="please_enter_the_valid_link">Please enter the valid link</string>
+    <string name="please_select_start_time_first">Please select the start time first</string>
+    <string name="my_communities">My Communities</string>
+    <string name="enjoy_your_journey">Enjoy Your Journey</string>
+
+    <!--Community-->
+
+    <string name="send_new_suggestion">Send New Suggestion</string>
+    <string name="community_name">Community Name</string>
+    <string name="idea_for_community">Idea for New Community</string>
+    <string name="add_new_community">Add new Community</string>
+    <string name="explore_new_community">Explore New Communities</string>
+    <string name="explore_communities">Explore Communities</string>
+    <string name="explore_and_join_communities_that_match_your_interests_connect_and_engage_with_like_minded_individuals">Explore and join communities that match your interests. Connect and engage with like-minded individuals!</string>
+    <string name="no_communities_found">No communities found</string>
+    <string name="search_community">Search Community</string>
+    <string name="no_posts_available">No posts available</string>
+    <string name="join_community">Join Community</string>
+    <string name="post_image">Post Image</string>
+    <string name="leave_community">Leave Community</string>
+    <string name="are_you_sure_you_want_to_leave_this_community">Are you sure you want to leave this community?</string>
+    <string name="no_comment_yet">No comment yet</string>
+    <string name="reply">Reply</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="Terms_and_Conditions">Terms and Conditions</string>
+    <string name="no_community_post_here">No Community post here</string>
+
+
+</resources>
