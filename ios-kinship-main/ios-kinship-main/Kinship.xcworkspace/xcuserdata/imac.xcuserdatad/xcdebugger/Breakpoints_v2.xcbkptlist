@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DF330886-5DAD-4AA5-B364-0FE3E7390884"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23D7BA13-FFF5-4327-994F-5CC1D2407D02"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kinship/Screens/ChangePassword/ChangePasswordScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "changePasswordAPI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "23D7BA13-FFF5-4327-994F-5CC1D2407D02 - f30587a7f3d1ff54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Kinship.Response) -&gt; () in Kinship.ChangePasswordScreen.changePasswordAPI() -&gt; ()"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Screens/ChangePassword/ChangePasswordScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "241">
+               </Location>
+               <Location
+                  uuid = "23D7BA13-FFF5-4327-994F-5CC1D2407D02 - f30587a7f3d1ff54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Kinship.Response) -&gt; () in Kinship.ChangePasswordScreen.changePasswordAPI() -&gt; ()"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Screens/ChangePassword/ChangePasswordScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "788">
+               </Location>
+               <Location
+                  uuid = "23D7BA13-FFF5-4327-994F-5CC1D2407D02 - f30587a7f3d1ff54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Kinship.Response) -&gt; () in Kinship.ChangePasswordScreen.changePasswordAPI() -&gt; ()"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Screens/ChangePassword/ChangePasswordScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "644">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "160FFDCE-6821-48C9-8B9D-49E86D405531"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kinship/Screens/ChangePassword/ChangePasswordScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "changePasswordAPI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "160FFDCE-6821-48C9-8B9D-49E86D405531 - f30587a7f3d1ff37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Kinship.Response) -&gt; () in Kinship.ChangePasswordScreen.changePasswordAPI() -&gt; ()"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Screens/ChangePassword/ChangePasswordScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "347">
+               </Location>
+               <Location
+                  uuid = "160FFDCE-6821-48C9-8B9D-49E86D405531 - f30587a7f3d1ff37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Kinship.Response) -&gt; () in Kinship.ChangePasswordScreen.changePasswordAPI() -&gt; ()"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Screens/ChangePassword/ChangePasswordScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "160FFDCE-6821-48C9-8B9D-49E86D405531 - f30587a7f3d1ff37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Kinship.Response) -&gt; () in Kinship.ChangePasswordScreen.changePasswordAPI() -&gt; ()"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Screens/ChangePassword/ChangePasswordScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "264">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "402D84D0-0E9A-45CC-9379-6A2F112DCDA3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kinship/Screens/ChangePassword/ChangePasswordScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "changePasswordAPI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "402D84D0-0E9A-45CC-9379-6A2F112DCDA3 - f30587a7f3d1ffe9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Kinship.Response) -&gt; () in Kinship.ChangePasswordScreen.changePasswordAPI() -&gt; ()"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Screens/ChangePassword/ChangePasswordScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "142">
+               </Location>
+               <Location
+                  uuid = "402D84D0-0E9A-45CC-9379-6A2F112DCDA3 - f30587a7f3d1ffe9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Kinship.Response) -&gt; () in Kinship.ChangePasswordScreen.changePasswordAPI() -&gt; ()"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Screens/ChangePassword/ChangePasswordScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "402D84D0-0E9A-45CC-9379-6A2F112DCDA3 - f30587a7f3d1ffe9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Kinship.Response) -&gt; () in Kinship.ChangePasswordScreen.changePasswordAPI() -&gt; ()"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Screens/ChangePassword/ChangePasswordScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2899D18B-F0AC-4984-8DAE-E960FAC1BEDC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kinship/Utilities/Utility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "userIsLoginOrNot()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2899D18B-F0AC-4984-8DAE-E960FAC1BEDC - 2bda3aba07357a7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Kinship.Utility.userIsLoginOrNot() -&gt; Swift.Bool"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Utilities/Utility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "1481">
+               </Location>
+               <Location
+                  uuid = "2899D18B-F0AC-4984-8DAE-E960FAC1BEDC - 2bda3aba07357a7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Kinship.Utility.userIsLoginOrNot() -&gt; Swift.Bool"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Utilities/Utility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "1212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EE6CBBE-3383-4C1E-8BE0-49397D59C874"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kinship/Utilities/Utility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "userIsLoginOrNot()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1EE6CBBE-3383-4C1E-8BE0-49397D59C874 - 2bda3aba073545d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Kinship.Utility.userIsLoginOrNot() -&gt; Swift.Bool"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Utilities/Utility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "1424">
+               </Location>
+               <Location
+                  uuid = "1EE6CBBE-3383-4C1E-8BE0-49397D59C874 - 2bda3aba073545d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Kinship.Utility.userIsLoginOrNot() -&gt; Swift.Bool"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Utilities/Utility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "1148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F9BB7C1-8C94-4E75-A57D-CE8462E894EA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kinship/Screens/Messages/DirectMessageScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "sendMessage(message:senderId:receiverId:groupId:type:roomId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5F9BB7C1-8C94-4E75-A57D-CE8462E894EA - 95d019a9a29361f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kinship.DirectMessageScreen.sendMessage(message: Swift.Optional&lt;Swift.String&gt;, senderId: Swift.String, receiverId: Swift.String, groupId: Swift.String, type: Swift.Optional&lt;Swift.Int&gt;, roomId: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Screens/Messages/DirectMessageScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "1988">
+               </Location>
+               <Location
+                  uuid = "5F9BB7C1-8C94-4E75-A57D-CE8462E894EA - 25ffcff491631d38"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = Value Promoted from Box&gt; of closure #1 @Swift.MainActor () -&gt; () in Kinship.DirectMessageScreen.sendMessage(message: Swift.Optional&lt;Swift.String&gt;, senderId: Swift.String, receiverId: Swift.String, groupId: Swift.String, type: Swift.Optional&lt;Swift.Int&gt;, roomId: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Screens/Messages/DirectMessageScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "377">
+               </Location>
+               <Location
+                  uuid = "5F9BB7C1-8C94-4E75-A57D-CE8462E894EA - 95d019a9a29361d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kinship.DirectMessageScreen.sendMessage(message: Swift.Optional&lt;Swift.String&gt;, senderId: Swift.String, receiverId: Swift.String, groupId: Swift.String, type: Swift.Optional&lt;Swift.Int&gt;, roomId: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Screens/Messages/DirectMessageScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "1744">
+               </Location>
+               <Location
+                  uuid = "5F9BB7C1-8C94-4E75-A57D-CE8462E894EA - 95d019a9a29361d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kinship.DirectMessageScreen.sendMessage(message: Swift.Optional&lt;Swift.String&gt;, senderId: Swift.String, receiverId: Swift.String, groupId: Swift.String, type: Swift.Optional&lt;Swift.Int&gt;, roomId: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Screens/Messages/DirectMessageScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "1588">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C78DEC89-D687-4DE0-96BC-426402EF2A64"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kinship/Screens/Messages/DirectMessageScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "addNewElementIntoDictionary(model:currentKey:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C78DEC89-D687-4DE0-96BC-426402EF2A64 - 37af589b0664035d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kinship.DirectMessageScreen.addNewElementIntoDictionary(model: Kinship.ChatImageLinkMessageResponse, currentKey: Swift.String) -&gt; ()"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Screens/Messages/DirectMessageScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "1176">
+               </Location>
+               <Location
+                  uuid = "C78DEC89-D687-4DE0-96BC-426402EF2A64 - 37af589b0664035d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kinship.DirectMessageScreen.addNewElementIntoDictionary(model: Kinship.ChatImageLinkMessageResponse, currentKey: Swift.String) -&gt; ()"
+                  moduleName = "Kinship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imac/Documents/Kushang/GitHub/Kinship/Kinship/Screens/Messages/DirectMessageScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "940">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

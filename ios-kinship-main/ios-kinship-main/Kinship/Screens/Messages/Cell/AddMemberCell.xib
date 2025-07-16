@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="AddMemberCell" reuseIdentifier="" id="gTV-IL-0wX" customClass="AddMemberCell" customModule="Kinship" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="93" height="45"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="93" height="45"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7QH-cI-huF" customClass="dateSportView" customModule="Kinship" customModuleProvider="target">
+                        <rect key="frame" x="4" y="12" width="85" height="21"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arlene McCoy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3o7-kI-a98">
+                                <rect key="frame" x="10" y="6.0000000000000009" width="65" height="9.3333333333333357"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="8"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3o7-kI-a98" secondAttribute="trailing" constant="10" id="UcJ-E6-PcM"/>
+                            <constraint firstAttribute="height" constant="21" id="oxs-bI-SAY"/>
+                            <constraint firstItem="3o7-kI-a98" firstAttribute="leading" secondItem="7QH-cI-huF" secondAttribute="leading" constant="10" id="uW5-eC-4Mh"/>
+                            <constraint firstItem="3o7-kI-a98" firstAttribute="centerY" secondItem="7QH-cI-huF" secondAttribute="centerY" id="vNt-i6-hZ7"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" name="#CC6677"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="7QH-cI-huF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="12" id="E5d-on-zcK"/>
+                <constraint firstAttribute="trailing" secondItem="7QH-cI-huF" secondAttribute="trailing" constant="4" id="g1j-dV-S0v"/>
+                <constraint firstItem="7QH-cI-huF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="tMB-qt-xEj"/>
+                <constraint firstAttribute="bottom" secondItem="7QH-cI-huF" secondAttribute="bottom" constant="12" id="wwA-UZ-ZdY"/>
+            </constraints>
+            <size key="customSize" width="93" height="45"/>
+            <connections>
+                <outlet property="nameLabel" destination="3o7-kI-a98" id="y4F-mD-ufZ"/>
+            </connections>
+            <point key="canvasLocation" x="142.74809160305344" y="11.619718309859156"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="#CC6677">
+            <color red="0.80000001192092896" green="0.40000000596046448" blue="0.46700000762939453" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

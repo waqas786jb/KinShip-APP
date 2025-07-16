@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-SemiBold.ttf">
+            <string>OpenSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="120" id="KGk-i7-Jjw" customClass="MyCommunityCell" customModule="Kinship" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="331" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="331" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_community" translatesAutoresizingMaskIntoConstraints="NO" id="okH-Wd-6Ut">
+                        <rect key="frame" x="18" y="10" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="6IR-YF-zCa"/>
+                            <constraint firstAttribute="width" constant="50" id="nHo-uS-Vzf"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c28-m7-h4O">
+                        <rect key="frame" x="82" y="15.000000000000004" width="231" height="40.333333333333343"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yoga Community" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G27-0g-xtd">
+                                <rect key="frame" x="0.0" y="0.0" width="109.66666666666667" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="customFontName">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="customFontSize">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12 Members" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEy-hi-YLL">
+                                <rect key="frame" x="0.0" y="20" width="109.66666666666667" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="#000000_50%"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lye-QT-CZH" customClass="dateSportLabel" customModule="Kinship" customModuleProvider="target">
+                                <rect key="frame" x="119.66666666666666" y="1" width="15" height="15"/>
+                                <color key="backgroundColor" name="#CC6677"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="NG5-zf-LOL"/>
+                                    <constraint firstAttribute="width" constant="15" id="vwW-RK-Yrq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="8"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="7.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="AEy-hi-YLL" secondAttribute="bottom" id="PAE-aR-Xi0"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Lye-QT-CZH" secondAttribute="trailing" id="V7B-tf-bXj"/>
+                            <constraint firstItem="G27-0g-xtd" firstAttribute="top" secondItem="c28-m7-h4O" secondAttribute="top" id="XIb-dE-BeW"/>
+                            <constraint firstItem="G27-0g-xtd" firstAttribute="leading" secondItem="c28-m7-h4O" secondAttribute="leading" id="ZKj-BX-ciL"/>
+                            <constraint firstItem="AEy-hi-YLL" firstAttribute="top" secondItem="G27-0g-xtd" secondAttribute="bottom" constant="3" id="i7H-23-bkR"/>
+                            <constraint firstItem="AEy-hi-YLL" firstAttribute="trailing" secondItem="G27-0g-xtd" secondAttribute="trailing" id="ioq-TD-pKH"/>
+                            <constraint firstItem="AEy-hi-YLL" firstAttribute="leading" secondItem="G27-0g-xtd" secondAttribute="leading" id="jrC-Jn-MN4"/>
+                            <constraint firstItem="Lye-QT-CZH" firstAttribute="leading" secondItem="G27-0g-xtd" secondAttribute="trailing" constant="10" id="oNx-gl-Wea"/>
+                            <constraint firstItem="Lye-QT-CZH" firstAttribute="centerY" secondItem="G27-0g-xtd" secondAttribute="centerY" id="sK5-4a-Bc4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="c28-m7-h4O" firstAttribute="leading" secondItem="okH-Wd-6Ut" secondAttribute="trailing" constant="14" id="8r4-JP-uQu"/>
+                    <constraint firstItem="okH-Wd-6Ut" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="18" id="Gxp-6e-8nB"/>
+                    <constraint firstAttribute="trailing" secondItem="c28-m7-h4O" secondAttribute="trailing" constant="18" id="I5T-ra-Zhe"/>
+                    <constraint firstItem="c28-m7-h4O" firstAttribute="centerY" secondItem="okH-Wd-6Ut" secondAttribute="centerY" id="LLl-gq-O1U"/>
+                    <constraint firstAttribute="bottom" secondItem="okH-Wd-6Ut" secondAttribute="bottom" constant="10" id="rsr-SO-Hrb"/>
+                    <constraint firstItem="okH-Wd-6Ut" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="vdl-fv-YNy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="communityName" destination="G27-0g-xtd" id="YgE-ae-prh"/>
+                <outlet property="memberLabel" destination="AEy-hi-YLL" id="HJW-vq-ZQj"/>
+                <outlet property="messageCountLabel" destination="Lye-QT-CZH" id="vpp-9S-hF3"/>
+            </connections>
+            <point key="canvasLocation" x="-129.00763358778624" y="-11.971830985915494"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="Lye-QT-CZH">
+            <size key="intrinsicContentSize" width="9" height="9.3333333333333339"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="ic_community" width="52" height="52"/>
+        <namedColor name="#000000_50%">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#CC6677">
+            <color red="0.28200000524520874" green="0.11800000071525574" blue="0.43900001049041748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

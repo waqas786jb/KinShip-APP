@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans-Regular</string>
+        </array>
+        <array key="OpenSans-SemiBold.ttf">
+            <string>OpenSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="58" id="KGk-i7-Jjw" customClass="DirectMessageCell" customModule="Kinship" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="389" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="389" height="58"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dAp-x1-7tb">
+                        <rect key="frame" x="0.0" y="0.0" width="389" height="60"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileImage" translatesAutoresizingMaskIntoConstraints="NO" id="Kgv-BQ-p6Y" customClass="dateSportImageView" customModule="Kinship" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="15" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gwx-Lf-jTd"/>
+                                    <constraint firstAttribute="width" constant="30" id="pr7-Pr-5NM"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arlene McCoy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXw-Gs-joh">
+                                <rect key="frame" x="39" y="15" width="330" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="TJw-Ju-Jc5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Has anyone introduce solid foods yet?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wlr-BS-yEd">
+                                <rect key="frame" x="39" y="29.000000000000004" width="333" height="13.666666666666668"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OwV-1r-Lqr">
+                                <rect key="frame" x="374" y="22.666666666666668" width="15" height="15.000000000000004"/>
+                                <color key="backgroundColor" name="#CC6677"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="KGw-gv-xVX"/>
+                                    <constraint firstAttribute="width" constant="15" id="jJ1-Wd-tZB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="8"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" systemColor="systemBrownColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sR-gY-8ZP" customClass="dateSportLabel" customModule="Kinship" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="15" width="30" height="30"/>
+                                <color key="backgroundColor" name="#CC6677"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Z9L-0I-mSi"/>
+                                    <constraint firstAttribute="width" constant="30" id="s1h-X9-WQm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OwV-1r-Lqr" firstAttribute="leading" secondItem="OXw-Gs-joh" secondAttribute="trailing" constant="5" id="Fmq-JP-VYO"/>
+                            <constraint firstItem="Kgv-BQ-p6Y" firstAttribute="leading" secondItem="dAp-x1-7tb" secondAttribute="leading" id="J8h-hn-OyP"/>
+                            <constraint firstItem="1sR-gY-8ZP" firstAttribute="centerY" secondItem="dAp-x1-7tb" secondAttribute="centerY" id="L6A-9q-5ip"/>
+                            <constraint firstItem="OXw-Gs-joh" firstAttribute="top" secondItem="dAp-x1-7tb" secondAttribute="top" constant="15" id="Lyf-mf-x3c"/>
+                            <constraint firstItem="Kgv-BQ-p6Y" firstAttribute="centerY" secondItem="dAp-x1-7tb" secondAttribute="centerY" id="Nbp-PR-B8m"/>
+                            <constraint firstItem="OwV-1r-Lqr" firstAttribute="centerY" secondItem="Kgv-BQ-p6Y" secondAttribute="centerY" id="O0T-xF-I71"/>
+                            <constraint firstAttribute="height" constant="60" id="Qq6-dR-KFL"/>
+                            <constraint firstItem="OXw-Gs-joh" firstAttribute="leading" secondItem="Kgv-BQ-p6Y" secondAttribute="trailing" constant="9" id="Tml-Sq-bnz"/>
+                            <constraint firstItem="OwV-1r-Lqr" firstAttribute="leading" secondItem="Wlr-BS-yEd" secondAttribute="trailing" constant="2" id="bU5-Qf-tO7"/>
+                            <constraint firstItem="Wlr-BS-yEd" firstAttribute="top" secondItem="OXw-Gs-joh" secondAttribute="bottom" id="fMc-A1-aYg"/>
+                            <constraint firstItem="1sR-gY-8ZP" firstAttribute="leading" secondItem="dAp-x1-7tb" secondAttribute="leading" id="iPO-js-co9"/>
+                            <constraint firstAttribute="trailing" secondItem="OwV-1r-Lqr" secondAttribute="trailing" id="mRG-DO-VR2"/>
+                            <constraint firstItem="Wlr-BS-yEd" firstAttribute="leading" secondItem="Kgv-BQ-p6Y" secondAttribute="trailing" constant="9" id="sqD-5x-CB2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="dAp-x1-7tb" secondAttribute="bottom" id="2AM-1L-5Hi"/>
+                    <constraint firstItem="dAp-x1-7tb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Flz-0t-2z4"/>
+                    <constraint firstAttribute="trailing" secondItem="dAp-x1-7tb" secondAttribute="trailing" id="IuI-XZ-JJV"/>
+                    <constraint firstItem="dAp-x1-7tb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Rnu-bW-TpV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="groupCountLabel" destination="1sR-gY-8ZP" id="qmg-9G-aXq"/>
+                <outlet property="messageCountLabel" destination="OwV-1r-Lqr" id="ji2-We-apJ"/>
+                <outlet property="messageCountLabelWidth" destination="jJ1-Wd-tZB" id="Sdq-iT-8vb"/>
+                <outlet property="messageLabel" destination="Wlr-BS-yEd" id="ORi-aB-bhd"/>
+                <outlet property="personNameLabel" destination="OXw-Gs-joh" id="sl9-8u-AT1"/>
+                <outlet property="profileImageView" destination="Kgv-BQ-p6Y" id="kS9-Lz-tVM"/>
+            </connections>
+            <point key="canvasLocation" x="293.89312977099235" y="55.633802816901408"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="1sR-gY-8ZP">
+            <size key="intrinsicContentSize" width="10.333333333333334" height="20.333333333333332"/>
+        </designable>
+        <designable name="Kgv-BQ-p6Y">
+            <size key="intrinsicContentSize" width="62" height="62"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="profileImage" width="62" height="62"/>
+        <namedColor name="#CC6677">
+            <color red="0.80000001192092896" green="0.40000000596046448" blue="0.46700000762939453" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
